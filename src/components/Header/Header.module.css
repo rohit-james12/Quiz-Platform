@@ -1,0 +1,24 @@
+.title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: "Quicksand";
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .title{
+        margin-top: 20px;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+}
